@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 st.write("""
-# Sales Prediction App
+# Flight Status Prediction
 
 This app predicts the **Flight status** 
 """)
