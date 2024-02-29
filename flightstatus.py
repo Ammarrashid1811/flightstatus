@@ -18,7 +18,7 @@ def user_input_features():
     data = {'CarrierCode': CarrierCode,
             'DepartureStation': DepartureStation,
             'Arrivalstation': Arrivalstation,
-            'AOCHolder'}
+            'AOCHolder': AOCHolder}
     features = pd.DataFrame(data, index=[0])
     return features
 
