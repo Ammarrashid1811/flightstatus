@@ -23,11 +23,10 @@ def user_input_features():
             'DepartureStation': DepartureStation,
             'Arrivalstation': Arrivalstation,
             'AOCHolder': AOCHolder,
-           'DelayCode': DelayCode, 
-           'DelayTime': DelayTime,
-           'FlightNumber': FlightNumber
-           'PAX': PAX
-           }
+            'DelayCode': DelayCode, 
+            'DelayTime': DelayTime,
+            'FlightNumber': FlightNumber
+            'PAX': PAX}
     features = pd.DataFrame(data, index=[0])
     return features
 
