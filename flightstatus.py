@@ -26,7 +26,7 @@ def user_input_features():
            'DelayCode': DelayCode, 
            'DelayTime': DelayTime,
            'FlightNumber': FlightNumber
-           # 'PAX': PAX
+           'PAX': PAX
            }
     features = pd.DataFrame(data, index=[0])
     return features
