@@ -5,7 +5,7 @@ import pickle
 st.write("""
 # Flight Status Prediction
 
-This app predicts the **Flight status** 
+This app predicts the **Flight status** whether the delay(0) or on time(1)
 """)
 
 st.sidebar.header('User Input Parameters')
