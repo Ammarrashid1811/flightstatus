@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-st.image('AirAsia.png')
+st.image('flightimg.png')
 
 st.write("""
 # Flight Status Prediction
