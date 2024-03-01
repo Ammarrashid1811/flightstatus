@@ -18,7 +18,7 @@ def user_input_features():
     DelayCode = st.sidebar.number_input('DelayCode', 0.0, 7.0, 3.0)
     DelayTime = st.sidebar.number_input('DelayTime', 0.0, 7.0, 3.0)
     FlightNumber = st.sidebar.number_input('FlightNumber', 0.0, 7.0, 3.0)
-    PAX = st.sidebar.number_input('Pax', value=1)
+    PAX = st.sidebar.number_input('PAX', value=1)
     data = {'CarrierCode': CarrierCode,
             'DepartureStation': DepartureStation,
             'Arrivalstation': Arrivalstation,
@@ -26,7 +26,7 @@ def user_input_features():
             'DelayCode': DelayCode, 
             'DelayTime': DelayTime,
             'FlightNumber': FlightNumber
-            'Pax': PAX
+            'PAX': PAX
            }
     features = pd.DataFrame(data, index=[0])
     return features
