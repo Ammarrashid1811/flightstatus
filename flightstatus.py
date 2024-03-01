@@ -20,6 +20,7 @@ Reference:
 
 """)
 
+
 st.sidebar.header('User Input Parameters')
 
 def user_input_features():
@@ -51,5 +52,5 @@ loaded_model = pickle.load(open("flightdatac.h5", "rb"))
 
 prediction = loaded_model.predict(df)
 
-st.subheader('Prediction')
+st.subheader('Prediction of Flight Status')
 st.write(prediction)
