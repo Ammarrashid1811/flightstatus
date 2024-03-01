@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 import pickle
 
+st.image('AirAsia.png')
+
 st.write("""
 # Flight Status Prediction
-
-st.image('AirAsia.png')
 
 This app predicts the **Flight status** based on the given input features.
 
