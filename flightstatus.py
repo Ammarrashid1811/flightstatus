@@ -8,6 +8,23 @@ st.write("""
 This app predicts the **Flight status** 
 """)
 
+st.write("""
+Reference: 
+
+| CarrierCode | Code |
+|-------------|----- |
+| AK          | 30   |
+| D7          | 25   |
+| FD          | 35   |
+| XJ          | 35   |
+| QZ          | 35   |
+| Z2          | 35   |
+
+This app predicts the **Flight status** 
+""")
+
+'AK' 'D7' 'FD' 'XJ' 'QZ' 'Z2'
+
 st.sidebar.header('User Input Parameters')
 
 def user_input_features():
