@@ -12,9 +12,9 @@ st.sidebar.header('User Input Parameters')
 
 def user_input_features():
     CarrierCode = st.sidebar.number_input('CarrierCode', value=0)
-    DepartureStation = st.sidebar.number_input('DepartureStation', 0.0, 109.0, 55.0)
-    Arrivalstation = st.sidebar.number_input('Arrivalstation', 0.0, 125.0, 70.0)
-    AOCHolder = st.sidebar.number_input('AOCHolder', 0.0, 7.0, 3.0)
+    DepartureStation = st.sidebar.number_input('DepartureStation', value=0)
+    Arrivalstation = st.sidebar.number_input('Arrivalstation', value=0)
+    AOCHolder = st.sidebar.number_input('AOCHolder', value=0)
     # DelayCode = st.sidebar.number_input('DelayCode', 0.0, 7.0, 3.0)
     # DelayTime = st.sidebar.number_input('DelayTime', 0.0, 7.0, 3.0)
     # FlightNumber = st.sidebar.number_input('FlightNumber', 0.0, 7.0, 3.0)
