@@ -15,19 +15,10 @@ def user_input_features():
     DepartureStation = st.sidebar.number_input('DepartureStation', value=0)
     Arrivalstation = st.sidebar.number_input('Arrivalstation', value=0)
     AOCHolder = st.sidebar.number_input('AOCHolder', value=0)
-    DelayCode = st.sidebar.number_input('DelayCode', 0.0, 7.0, 3.0)
-    DelayTime = st.sidebar.number_input('DelayTime', 0.0, 7.0, 3.0)
-    FlightNumber = st.sidebar.number_input('FlightNumber', 0.0, 7.0, 3.0)
-    PAX = st.sidebar.number_input('PAX', value=1)
     data = {'CarrierCode': CarrierCode,
             'DepartureStation': DepartureStation,
             'Arrivalstation': Arrivalstation,
-            'AOCHolder': AOCHolder,
-            'DelayCode': DelayCode, 
-            'DelayTime': DelayTime,
-            'FlightNumber': FlightNumber
-            'PAX': PAX
-           }
+            'AOCHolder': AOCHolder}
     features = pd.DataFrame(data, index=[0])
     return features
 
