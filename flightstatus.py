@@ -15,7 +15,7 @@ def user_input_features():
     DepartureStation = st.sidebar.number_input('DepartureStation', 0.0, 109.0, 55.0)
     Arrivalstation = st.sidebar.number_input('Arrivalstation', 0.0, 125.0, 70.0)
     AOCHolder = st.sidebar.number_input('AOCHolder', 0.0, 7.0, 3.0)
-    DelayCode = st.sidebar.number_input('DelayCode', 0.0, 7.0, 3.0)
+    # DelayCode = st.sidebar.number_input('DelayCode', 0.0, 7.0, 3.0)
     # DelayTime = st.sidebar.number_input('DelayTime', 0.0, 7.0, 3.0)
     # FlightNumber = st.sidebar.number_input('FlightNumber', 0.0, 7.0, 3.0)
     # PAX = st.sidebar.number_input('PAX', 0.0, 7.0, 3.0)
@@ -23,7 +23,7 @@ def user_input_features():
             'DepartureStation': DepartureStation,
             'Arrivalstation': Arrivalstation,
             'AOCHolder': AOCHolder,
-           'DelayCode': DelayCode, 
+           # 'DelayCode': DelayCode, 
            # 'DelayTime': DelayTime,
            # 'FlightNumber': FlightNumber
            # 'PAX': PAX
