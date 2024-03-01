@@ -5,7 +5,16 @@ import pickle
 st.write("""
 # Flight Status Prediction
 
-This app predicts the **Flight status** whether the delay(0) or on time(1)
+This app predicts the **Flight status** based on the given input features.
+
+Reference: 
+
+| Name     | Age | Location    |
+|----------|-----|-------------|
+| John     | 30  | New York    |
+| Alice    | 25  | Los Angeles |
+| Bob      | 35  | Chicago     |
+
 """)
 
 st.sidebar.header('User Input Parameters')
