@@ -40,4 +40,4 @@ loaded_model = pickle.load(open("flightdatac.h5", "rb"))
 prediction = loaded_model.predict(df)
 
 st.subheader('Prediction')
-st.write(prediction)
+st.write(prediction of flight status)
