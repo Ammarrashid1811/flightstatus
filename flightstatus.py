@@ -11,7 +11,7 @@ This app predicts the **Flight status**
 st.sidebar.header('User Input Parameters')
 
 def user_input_features():
-    CarrierCode = st.sidebar.selectbox('CarrierCode', value=0)
+    CarrierCode = st.sidebar.selectbox('CarrierCode', [0, 1, 2, 3])
     FlightNumber = st.sidebar.number_input('FlightNumber',value=0)
     DepartureStation = st.sidebar.number_input('DepartureStation', value=0)
     Arrivalstation = st.sidebar.number_input('Arrivalstation', value=0)
