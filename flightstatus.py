@@ -5,6 +5,7 @@ import pickle
 st.write("""
 # Flight Status Prediction
 
+image = open("AirAsia.jpg", "rb")
 This app predicts the **Flight status** based on the given input features.
 
 Reference: 
